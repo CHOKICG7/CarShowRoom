@@ -1,0 +1,84 @@
+#bhutan{
+    width: 150px;
+}
+#gaylong {
+   width: 100%;
+   margin: auto;
+}
+
+#sect{
+   width: 100%;
+}
+
+
+#image img{
+   width: 400px;
+   display: flex;
+}
+#main{
+   width: 100%;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   justify-content: center;
+   padding: 20px;
+   margin: auto;
+}
+#image{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   padding: 2em;
+}
+.card-img-top{
+   height: 200px;
+}
+.card-body{
+   background-color: black;
+   color: white;
+}
+
+@media (max-width: 600px){
+    
+    #bhutan{
+        width: 150px;
+   }
+   #gaylong {
+       width: 500px;
+       margin: auto;
+   }
+   
+   #sect{
+       margin: auto;
+       padding: 20px;
+   }
+   
+   
+    #image img{
+       width: 100%;
+       display: flex;
+   }
+   #main{
+       width: 100%;
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
+       justify-content: center;
+       padding: 20px;
+       margin: auto;
+   }
+   #image{
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       padding: 2em;
+   }
+   .card-img-top{
+       height: 200px;
+   }
+   .card-body{
+       background-color: black;
+       color: white;
+   }
+   
+}
